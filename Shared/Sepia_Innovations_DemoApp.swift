@@ -11,7 +11,9 @@ import SwiftUI
 struct Sepia_Innovations_DemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ContentView()
+            }
         }
     }
 }

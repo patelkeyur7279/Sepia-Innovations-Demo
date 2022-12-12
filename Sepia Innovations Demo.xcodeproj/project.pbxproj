@@ -7,21 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12A44BCE2947A6F2005F99FA /* Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A44BCD2947A6F2005F99FA /* Extenstions.swift */; };
+		12A44BCF2947A6F2005F99FA /* Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A44BCD2947A6F2005F99FA /* Extenstions.swift */; };
+		12A44BD12947AC8A005F99FA /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A44BD02947AC8A005F99FA /* Config.swift */; };
+		12A44BD22947AC8A005F99FA /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A44BD02947AC8A005F99FA /* Config.swift */; };
+		12A44BD42947B243005F99FA /* PetListChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A44BD32947B243005F99FA /* PetListChildView.swift */; };
+		12A44BD52947B243005F99FA /* PetListChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A44BD32947B243005F99FA /* PetListChildView.swift */; };
+		12A44BD82947B9C3005F99FA /* PetDetailsWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A44BD72947B9C3005F99FA /* PetDetailsWebView.swift */; };
+		12A44BD92947B9C3005F99FA /* PetDetailsWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A44BD72947B9C3005F99FA /* PetDetailsWebView.swift */; };
 		12B57E202947142B005D0127 /* Sepia_Innovations_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B57E102947142A005D0127 /* Sepia_Innovations_DemoApp.swift */; };
 		12B57E212947142B005D0127 /* Sepia_Innovations_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B57E102947142A005D0127 /* Sepia_Innovations_DemoApp.swift */; };
 		12B57E222947142B005D0127 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B57E112947142A005D0127 /* ContentView.swift */; };
 		12B57E232947142B005D0127 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B57E112947142A005D0127 /* ContentView.swift */; };
 		12B57E242947142B005D0127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12B57E122947142B005D0127 /* Assets.xcassets */; };
 		12B57E252947142B005D0127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12B57E122947142B005D0127 /* Assets.xcassets */; };
+		12B57E3029471653005D0127 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 12B57E2E29471653005D0127 /* config.json */; };
+		12B57E3129471653005D0127 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 12B57E2E29471653005D0127 /* config.json */; };
+		12B57E3229471653005D0127 /* pets_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 12B57E2F29471653005D0127 /* pets_list.json */; };
+		12B57E3329471653005D0127 /* pets_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 12B57E2F29471653005D0127 /* pets_list.json */; };
+		12B57E3929471735005D0127 /* PetsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B57E3829471735005D0127 /* PetsList.swift */; };
+		12B57E3A29471735005D0127 /* PetsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B57E3829471735005D0127 /* PetsList.swift */; };
+		12B57E3C294717D2005D0127 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B57E3B294717D2005D0127 /* Pet.swift */; };
+		12B57E3D294717D2005D0127 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B57E3B294717D2005D0127 /* Pet.swift */; };
+		12B57E3F29472DB7005D0127 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B57E3E29472DB7005D0127 /* ContentViewModel.swift */; };
+		12B57E4029472DB7005D0127 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B57E3E29472DB7005D0127 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12A44BCD2947A6F2005F99FA /* Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstions.swift; sourceTree = "<group>"; };
+		12A44BD02947AC8A005F99FA /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		12A44BD32947B243005F99FA /* PetListChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListChildView.swift; sourceTree = "<group>"; };
+		12A44BD62947B7B0005F99FA /* Sepia-Innovations-Demo--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Sepia-Innovations-Demo--iOS--Info.plist"; sourceTree = "<group>"; };
+		12A44BD72947B9C3005F99FA /* PetDetailsWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailsWebView.swift; sourceTree = "<group>"; };
 		12B57E102947142A005D0127 /* Sepia_Innovations_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sepia_Innovations_DemoApp.swift; sourceTree = "<group>"; };
 		12B57E112947142A005D0127 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		12B57E122947142B005D0127 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12B57E172947142B005D0127 /* Sepia Innovations Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sepia Innovations Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B57E1D2947142B005D0127 /* Sepia Innovations Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sepia Innovations Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B57E1F2947142B005D0127 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		12B57E2E29471653005D0127 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		12B57E2F29471653005D0127 /* pets_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pets_list.json; sourceTree = "<group>"; };
+		12B57E3829471735005D0127 /* PetsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsList.swift; sourceTree = "<group>"; };
+		12B57E3B294717D2005D0127 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		12B57E3E29472DB7005D0127 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +73,7 @@
 		12B57E0A2947142A005D0127 = {
 			isa = PBXGroup;
 			children = (
+				12A44BD62947B7B0005F99FA /* Sepia-Innovations-Demo--iOS--Info.plist */,
 				12B57E0F2947142A005D0127 /* Shared */,
 				12B57E1E2947142B005D0127 /* macOS */,
 				12B57E182947142B005D0127 /* Products */,
@@ -54,8 +83,11 @@
 		12B57E0F2947142A005D0127 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				12B57E37294716FB005D0127 /* Models */,
+				12B57E352947166F005D0127 /* Views */,
+				12B57E3629471674005D0127 /* ViewModels */,
+				12B57E3429471661005D0127 /* Utils */,
 				12B57E102947142A005D0127 /* Sepia_Innovations_DemoApp.swift */,
-				12B57E112947142A005D0127 /* ContentView.swift */,
 				12B57E122947142B005D0127 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -76,6 +108,44 @@
 				12B57E1F2947142B005D0127 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		12B57E3429471661005D0127 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				12B57E2E29471653005D0127 /* config.json */,
+				12B57E2F29471653005D0127 /* pets_list.json */,
+				12A44BCD2947A6F2005F99FA /* Extenstions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		12B57E352947166F005D0127 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				12B57E112947142A005D0127 /* ContentView.swift */,
+				12A44BD32947B243005F99FA /* PetListChildView.swift */,
+				12A44BD72947B9C3005F99FA /* PetDetailsWebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		12B57E3629471674005D0127 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				12B57E3E29472DB7005D0127 /* ContentViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		12B57E37294716FB005D0127 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				12B57E3829471735005D0127 /* PetsList.swift */,
+				12B57E3B294717D2005D0127 /* Pet.swift */,
+				12A44BD02947AC8A005F99FA /* Config.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +228,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				12B57E242947142B005D0127 /* Assets.xcassets in Resources */,
+				12B57E3229471653005D0127 /* pets_list.json in Resources */,
+				12B57E3029471653005D0127 /* config.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				12B57E252947142B005D0127 /* Assets.xcassets in Resources */,
+				12B57E3329471653005D0127 /* pets_list.json in Resources */,
+				12B57E3129471653005D0127 /* config.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,7 +251,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				12B57E222947142B005D0127 /* ContentView.swift in Sources */,
+				12B57E3C294717D2005D0127 /* Pet.swift in Sources */,
+				12B57E3929471735005D0127 /* PetsList.swift in Sources */,
+				12A44BD12947AC8A005F99FA /* Config.swift in Sources */,
 				12B57E202947142B005D0127 /* Sepia_Innovations_DemoApp.swift in Sources */,
+				12A44BD82947B9C3005F99FA /* PetDetailsWebView.swift in Sources */,
+				12A44BD42947B243005F99FA /* PetListChildView.swift in Sources */,
+				12A44BCE2947A6F2005F99FA /* Extenstions.swift in Sources */,
+				12B57E3F29472DB7005D0127 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +267,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				12B57E232947142B005D0127 /* ContentView.swift in Sources */,
+				12B57E3D294717D2005D0127 /* Pet.swift in Sources */,
+				12B57E3A29471735005D0127 /* PetsList.swift in Sources */,
+				12A44BD22947AC8A005F99FA /* Config.swift in Sources */,
 				12B57E212947142B005D0127 /* Sepia_Innovations_DemoApp.swift in Sources */,
+				12A44BD92947B9C3005F99FA /* PetDetailsWebView.swift in Sources */,
+				12A44BD52947B243005F99FA /* PetListChildView.swift in Sources */,
+				12A44BCF2947A6F2005F99FA /* Extenstions.swift in Sources */,
+				12B57E4029472DB7005D0127 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +401,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sepia-Innovations-Demo--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -342,6 +431,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sepia-Innovations-Demo--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
