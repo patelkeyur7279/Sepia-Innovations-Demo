@@ -26,10 +26,6 @@ extension Date
     
     func getTodayWeekDay() -> String {
         let dateFormatter = DateFormatter()
-        
-        let weekdays = dateFormatter.veryShortWeekdaySymbols
-        
-        
         dateFormatter.dateFormat = "E"
         let weekDay = dateFormatter.string(from: Date())
         return weekDay

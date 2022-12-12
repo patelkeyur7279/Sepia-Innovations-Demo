@@ -24,40 +24,47 @@ class ContentViewModel: ObservableObject {
             do {
                 let decodedData = try JSONDecoder().decode(Config.self, from: data)
                 
+                let configSettingsData = decodedData.settings.workHours.split(separator: " ")
+                let weekdays = configSettingsData[0].split(separator: "-")
+                let start = configSettingsData[1].split(separator: ":")
+                let end = configSettingsData[3].split(separator: ":")
+                
+                let now = Date()
+                let startTime = now.dateAt(hours: Int(start[0]) ?? 9, minutes: Int(start[1]) ?? 0)
+                let endTime = now.dateAt(hours: Int(end[0]) ?? 18, minutes: Int(end[1]) ?? 0)
+                
+                let isWorkingDay = workingDaysFilter(from: weekdays[0].description, to: weekdays[1].description)
+                if isWorkingDay {
+                    isTimeOut = !(now >= startTime &&
+                                 now <= endTime)
+                    
+                }
+                
             } catch {
                 print("error: \(error)")
             }
         }
         
-        let now = Date()
-        
-        let startTime = now.dateAt(hours: 9, minutes: 0)
-        let endTime = now.dateAt(hours: 18, minutes: 00)
-        
-        let weekday = now.getTodayWeekDay()
-        
-        isTimeOut = (now >= startTime &&
-                     now <= endTime)
-        
         getPets()
+        
     }
     
     func getPets() {
         
-        if isTimeOut {
-            
-            
-            
-        }
+        print("isTimeOut: \(isTimeOut)")
         
-        let jsonData = readLocalJSONFile(forName: "pets_list")
-        if let data = jsonData {
-            do {
-                let decodedData = try JSONDecoder().decode(PetsList.self, from: data)
-                pets = decodedData.pets
-            } catch {
-                print("error: \(error)")
+        if !isTimeOut {
+            
+            let jsonData = readLocalJSONFile(forName: "pets_list")
+            if let data = jsonData {
+                do {
+                    let decodedData = try JSONDecoder().decode(PetsList.self, from: data)
+                    pets = decodedData.pets
+                } catch {
+                    print("error: \(error)")
+                }
             }
+            
         }
         
     }
@@ -77,7 +84,15 @@ class ContentViewModel: ObservableObject {
     
     private func workingDaysFilter(from: String, to: String) -> Bool {
         var isValidWorkingDay: Bool = false
-        
+        let now = Date()
+        let dateFormatter = DateFormatter()
+        guard let weekdays = dateFormatter.veryShortWeekdaySymbols else { return false }
+        dateFormatter.dateFormat = "E"
+        let weekday = dateFormatter.string(from: now).first!
+        let daysInString = weekdays.description
+        if let match = daysInString.range(of: "\(from)(.*)\(to)", options: .regularExpression) {
+            isValidWorkingDay = String(daysInString[match]).contains(weekday)
+        }
         return isValidWorkingDay
     }
     

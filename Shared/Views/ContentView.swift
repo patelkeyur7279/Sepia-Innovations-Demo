@@ -23,6 +23,11 @@ struct ContentView: View {
             }
         }
         .navigationTitle("Pets")
+        .alert(isPresented: $viewModel.isTimeOut) {
+            Alert(title: Text("Important message"),
+                  message: Text("Working Hours Finished..!!"),
+                  dismissButton: nil)
+        }
     }
 }
 
